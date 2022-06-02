@@ -8,6 +8,9 @@ import java.util.List;
 
 import org.junit.Test;
 
+import com.bridgelaze.in.CustomException;
+import com.bridgelaze.in.StateCensusCSVRead;
+
 public class StateCensusAnalyserTest {
 	StateCensusCSVRead read = new StateCensusCSVRead();
 	String fileName = "IndianStateCensusData";
